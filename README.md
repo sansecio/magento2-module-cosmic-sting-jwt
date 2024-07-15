@@ -4,7 +4,7 @@ As [CosmicSting](https://sansec.io/research/cosmicsting-hitting-major-stores) en
 
 Adobe offers a solution to change the encryption key, but all it does is _add_ an additional key and then attempts to re-encrypt existing secrets with this key. It does nothing to invalidate the old key that is still being referenced in `app/etc/env.php`.
 
-This module ensures that JWTs are only ever read using the latest encryption. It is provided as-is and without any warranty or guarantees. 
+This module ensures that JWTs are only ever read using the latest encryption key. It is provided as-is and without any warranty or guarantees. Test extensively and use at own risk.
 
 ## License
 
