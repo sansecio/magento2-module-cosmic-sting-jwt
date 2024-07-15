@@ -11,5 +11,6 @@
         "psr-4": {
             "Sansec\\CosmicStingJWT\\": ""
         }
-    }
+    },
+    "license": "MIT"
 }
