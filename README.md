@@ -1,1 +1,1 @@
-# magento2-module-cosmic-sting-jwt
+# Cosmic Sting JWT
