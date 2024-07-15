@@ -6,6 +6,13 @@ Adobe offers a solution to change the encryption key, but all it does is _add_ a
 
 This module ensures that JWTs are only ever read using the latest encryption key. It is provided as-is and without any warranty or guarantees. Test extensively and use at own risk.
 
+## Installation
+
+```
+composer require sansec/magento2-module-cosmic-sting-jwt
+bin/magento setup:upgrade
+```
+
 ## License
 
 [MIT License](./LICENSE) - Copyright (c) 2024 Sansec
