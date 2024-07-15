@@ -1,0 +1,15 @@
+{
+    "name": "sansec/magento2-module-cosmic-sting-jwt",
+    "type": "magento2-module",
+    "require": {
+        "magento/module-jwt-user-token": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sansec\\CosmicStingJWT\\": ""
+        }
+    }
+}
