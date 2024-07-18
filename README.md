@@ -1,3 +1,7 @@
+# Important Notice
+
+Adobe has released a [hotfix for the isolated patch](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102?lang=en#hotfix) that ensures only the latest encryption key is used for JWTs. If you have applied this hotfix, this module is no longer necessary.
+
 # Cosmic Sting JWT
 
 As [CosmicSting](https://sansec.io/research/cosmicsting-hitting-major-stores) enables attackers to read any file, attackers can steal Magento's secret encryption key. This encryption key can be used to generate JSON Web Tokens with full administrative API access.
